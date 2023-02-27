@@ -1,0 +1,47 @@
+<html style="background-color: oldlace">
+	<head>
+		<title>Students survey form</title>
+		<head> <meta name="viewport" content="width=device-width,initial-scale=1" />
+	</head>
+	<body>
+		<style>
+			h1 {
+				text-align: center;
+				color: #000;
+			}
+		</style>
+		<h1>STUDENTS SURVEY FORM</h1>
+		<form action ="/html css/application.hjtml">
+			<div >
+				<label> STUDENT NAME : </label>
+				<input type="text" placeholder="eg:james" name="STUDENT NAME" : size="15"/><br><br>
+				<label> FATHER NAME : </label>
+				<input type="text" placeholder="eg:james" name="FATHER NAME" : size="15"/><br><br>				<label> Email : </label>
+				<input type="text" placeholder="eg:abcd@gmail.com" name="Email" : size="25"/><br><br>
+				<label> MOBILE NUMBER : </label>
+				<input type="text" placeholder="eg:123456789" name="MOBILE NUMBER" : size="15"/><br><br>
+				<label> DOB : </label>
+				<input type="datetime-local" placeholder="eg:14-07-2003"/><br><br>
+				<label> GENDER : </label><br>
+					<input type="radio" value="MALE" name="GENDER" />MALE<br>
+					<input type="radio" value="FEMALE" name="GENDER" />FEMALE<br><br>
+				</label>
+				<label> COURSE NAME : </label><br>
+					<input type="radio" value="AI&DS" name="COURSE NAME" />AI&DS
+					<input type="radio" value="AI&ML" name="COURSE NAME" />AI&ML
+					<input type="radio" value="CSBS" name="COURSE NAME" />CSBS
+					<input type="radio" value="ECE" name="COURSE NAME" />ECE
+					<input type="radio" value="CSE" name="COURSE NAME" />CSE<br><br>
+				</label>
+				<label> ARE YOU : </label><br>
+				<input type="radio" value="DAY SCHOLAR" name="ARE YOU" />DAY SCHOLAR
+				<input type="radio" value="HOSTELER" name="ARE YOU" />HOSTELER<br><br>
+			</div>
+			<div>
+				<label for="srkr review"> SHARE YOUR THOUGHTS </label><br>
+				<textarea id="srkr review" name="srkr review" rows="4" cols="50"></textarea><br><br>
+				<input type="submit" onclick="alert('successfully submitted')" value="Submit">
+			</div>
+		</form>
+	</body>
+</html>
