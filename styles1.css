@@ -1,0 +1,67 @@
+.top {
+	background-color: #e4f5f9;
+	position: relative;
+	padding-top: 100px;
+}
+.middle {
+}
+.bottom {
+}
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "merriweather", serif;
+	font-size: 200%;
+}
+.pro1 {
+	text-decoration: underline;
+}
+h1 {
+	margin: 0 auto 0 auto;
+	font-family: "Sacramento", cursive;
+	font-size: 5.625rem;
+	color: #66bfbf;
+	line-height: 2;
+}
+h2 {
+	font-family: "Montserrat", sans-serif;
+	color: #66bfbf;
+	font-weight: normal;
+	font-size: 2.5rem;
+}
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #11999e;
+}
+.bottom-cloud {
+	position: absolute;
+	top: 300px;
+	bottom: 300px;
+}
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.btn {
+	color: #11999e;
+}
+.footer-link {
+	color: #11999e;
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.skill-img {
+	width: 35%;
+	float: left;
+	margin-right: 30px;
+}
+.skill-img1 {
+	width: 35%;
+	float: right;
+	margin-left: 30px;
+}
